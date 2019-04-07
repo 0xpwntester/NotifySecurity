@@ -12,7 +12,7 @@ namespace NotifySecurity.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.8.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.9.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -25,58 +25,10 @@ namespace NotifySecurity.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Security <security@mail.com>")]
+        [global::System.Configuration.DefaultSettingValueAttribute("You Security Team Email")]
         public string Security_Team_Mail {
             get {
                 return ((string)(this["Security_Team_Mail"]));
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Securitycc <security.cc@mail.com>")]
-        public string Security_Team_Mail_cc {
-            get {
-                return ((string)(this["Security_Team_Mail_cc"]));
-            }
-            set {
-                this["Security_Team_Mail_cc"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Securitybcc <security.bcc@mail.com>")]
-        public string Security_Team_Mail_bcc {
-            get {
-                return ((string)(this["Security_Team_Mail_bcc"]));
-            }
-            set {
-                this["Security_Team_Mail_bcc"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://swordphish.domain.com/")]
-        public string SwordphishURL {
-            get {
-                return ((string)(this["SwordphishURL"]));
-            }
-            set {
-                this["SwordphishURL"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("X-Swordphish-Awareness-Campaign")]
-        public string SwordPhishHeader {
-            get {
-                return ((string)(this["SwordPhishHeader"]));
-            }
-            set {
-                this["SwordPhishHeader"] = value;
             }
         }
     }
