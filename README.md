@@ -41,5 +41,3 @@ You simply have to edit the project settings to adapt them to your organization 
 # Special thanks
 
 We would like to thank Nicolas Chaussard from ALD Automotive Security Teams for providing us the code base for this project and allowing us to release it here!
-
-# This is a modified version of the above where I removed the swordphish related stuff and added A VT link for the first  recieved IP which is usually the originating IP for the email. Use visual studio 2017 and  it's publish menu to create the installer. Modify the names as you wish.

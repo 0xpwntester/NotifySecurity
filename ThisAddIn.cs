@@ -49,7 +49,7 @@ namespace NotifySecurity
 
             //if (currentExplorer == null) return null
 
-
+            
             Outlook.MAPIFolder selectedFolder =
                 this.Application.ActiveExplorer().CurrentFolder;
 
