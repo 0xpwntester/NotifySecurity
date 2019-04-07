@@ -41,4 +41,4 @@ You simply have to edit the project settings to adapt them to your organization 
 # Special thanks
 
 We would like to thank Nicolas Chaussard from ALD Automotive Security Teams for providing us the code base for this project and allowing us to release it here!
-#This is modified version of the above where I removed the swordphish related stuff and added A VT link for the first  recieved from IP. Use visual studio 2017 and it's publish menu to create installer. Modify the names as you wish
+# This is modified version of the above where I removed the swordphish related stuff and added A VT link for the first  recieved from IP. Use visual studio 2017 and it's publish menu to create installer. Modify the names as you wish
